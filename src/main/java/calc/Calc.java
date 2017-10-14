@@ -3,7 +3,7 @@ package calc;
 import java.text.ParseException;
 
  public  class Calc {
-    public double plus(double... values) {
+    double plus(double... values) {
         double result = 0;
         for (double v : values) {
             result += v;
